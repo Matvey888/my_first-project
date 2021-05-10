@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(90deg, orange 2%, red 27%, blue 29%, blue 100%);
 }
 
 .App-logo {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-title {
+  color: #61dafb;
+  font-size: 2rem;
+  font-weight: 800;
+
+}
+
+ul {
+  list-style: georgian;
+}
+
+.some-class {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 500;
+
 }
