@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
-import Header from './header.js';
-import {Tehnologies, Foon } from './tehnologies.js';
 import './App.css';
+import Header from './Header';
+import Technologies from './Technologies.js';
+import Footer from './Footer';
+
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <Tehnologies />
-      <Foon />
+      <Technologies />
+      <Footer />
       <p className="main-title">Simple HTml</p>
       <ul>
         <li className="some-class">this one position</li>
@@ -18,6 +20,5 @@ const App = () => {
 }
 
 
-// export Header;
 
 export default App;
